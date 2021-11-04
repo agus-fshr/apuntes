@@ -46,5 +46,19 @@ En el selector de velocidades, existe una superposicion de un campo electrico y 
 $$\vec{F_E} = - \vec{F_B} \Rightarrow |\vec{F_E}| = |\vec{F_B}| = qE = qvB$$
 $$v = \frac{B}{E}$$
 
+### Espectrometro de Masas
+El espectrometro de masas es un dispositivo qu epermite analizar con gran precicion la composicion de diferentes elementos quimicos e isotopos atomicos. El espectrometro de Bainbridge se compone de un selector de velocidades y otro tramo con solamente un campo magnetico y una pantalla.
+
+<p align="center">
+  <img src="http://i.stack.imgur.com/UDrwC.png" height="300px" width="350px"/>
+</p>
+
+El radio de la orbita es proporcional a la masa, por lo que iones de distina masa impactan en diferentes zonas de la placa. En la region de campo unicamente magnetico, las particulas experimentan una fuerza neta dada por $\vec{F}=q\vec{v}\times\vec{B}$. Aplicando dinamica del MCU, obtenemos 
+$$qvB_0 = ma = m \frac{v^2}{r}$$
+$$r = \frac{mv}{qB_0}$$
+
+La razon $\frac{m}{q}$ es $B_0r\frac{B}{E}$ y, ademas, sabiendo que la velocidad de salida del selector de velocidades es $v=\frac{E}{B}$...
+$$\frac{m}{q} = B_0 r \frac{B}{E}$$
+
 ### Fuerza Magnetica sobre un Conductor que Transporta Corriente
 Se puede tomar la corriente como un conjunto de portadores de carga en movimiento. A cada uno de estos le aplicara una Fuerza de Lorentz.
