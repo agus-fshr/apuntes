@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "1839be42dfa63647",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9a66c8e82bd477d",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3d52509bbd39d062",
+    "type": "split",
+    "children": [
+      {
+        "id": "783f3b32bcb22a72",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c437da0890db1e9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b5d56d9cef42caa3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 302
+  },
+  "right": {
+    "id": "030224a1d9b33ba4",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d3c07b242f18cb8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3697b9d2a85be012",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "d9a66c8e82bd477d",
+  "lastOpenFiles": [
+    "fisica-3/Fuerza Magnetica entre Conductores Rectilineos Paralelos.md",
+    "fisica-3/Clase 8 - Campos Magneticos.md",
+    "fisica-3/Campo de Induccion Magnetica para Solenoide.md",
+    "fisica-3/Ley de Ampere.md",
+    "fisica-3/Campo de Induccion Magnetica para Toroide.md",
+    "fisica-3/Campo de Induccion Magnetica para Toroide.pdf",
+    "fisica-3/Ley de Biot-Savart.md",
+    "fisica-3/Ley de Ampere.pdf",
+    "fisica-3/Efecto Hall.md",
+    "fisica-3/Fuentes de Campo de Induccion Magnetica.md"
+  ]
+}
