@@ -21,3 +21,12 @@ Finalmente
 $$F_{12} = F_{21}= \frac{\mu_0 i_1 i_2 l}{2 \pi a}$$
 
 Si el sentido de la corriente es el mismo para ambos conductores, las fuerzas correspondientes entre ellos son de atraccion. Si tienen sentidos opuestos, las fuerzas son de repulsion.
+
+
+
+$$Q = \frac{\Delta T}{R_{\theta}}$$
+$$Q = \frac{\Delta T}{R_{\theta}} = 1.34 A_s$$
+$$ \frac{\Delta T^{1.25}}{d_{vert}^{0.25}}$$
+$$ R_{(\theta_ {conv})} = \frac{1}{1.34 A_s}(\frac{d_{vert}}{\Delta T})^{1/4} $$
+$$\omega_s = \frac{60 f}{PpF}$$
+$$ s = \omega_s - \omega_r$$
