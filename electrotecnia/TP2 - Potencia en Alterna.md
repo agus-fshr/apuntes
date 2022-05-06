@@ -52,3 +52,15 @@ y de ahi, tambien se puede decir que $$I_{ef} = \sqrt{I^2_{1ef} + I^2_{2ef} = ..
 La potencia aparente se define como el producto $V_{ef}I_{ef}$. Esta no es la potencia promedio. Es la potencia aparente. La potencia aparente se mide en las mismas unidades que la potencia real, pues el coseno es adimensional, sin embargo, para evitar confusiones, se dice que la unidad es VA o _volt-amperes_. Ademas, se define el factor de potencia $\text{fp}$ de modo que
 $$\text{fp} = \frac{\text{potencia promedio}}{\text{potencia aparente}} = \frac{P}{V_{ef}I_{ef}} = \cos{(\theta - \phi)}$$
 ## Potencia compleja
+ La magnitud de la potencia compleja es simplemente la potencia aparente. La parte real es la potencia promedio y la parte imaginaria es la llamada potencia reactiva, que describe la rapidez de transferencia de energia hacia y desde los componentes de la carga reactiva.
+
+ Se define entonces $V_{ef}=V_{ef} \angle{\theta}$ y $I_{ef}=I_{ef} \angle \phi$. Entonces
+ $$P = V_{ef}I_{ef}\cos{(\theta - \phi)} = V_{ef}I_{ef}Re\{e^{j(\theta - \phi)}\}$$
+ Esto es lo mismo que decir $P = Re\{V_{ef}I_{ef}^*\}$. Luego, se define la potencia compleja $S$ como
+ $$S = V_{ef}I_{ef}^* = P+jQ$$
+ La unidad de $S$ es VAR o _volt-ampere-reactivo_.
+
+Se puede armar un _traingulo de potencia_ donde el cateto sobre el eje de las _x_ es $P$, el otro cateto es $Q$ y la hipotenusa es $S$. Si el triangulo se encuentra en el primer cuadrante, el factor de potencia es de **atraso** y corresponed a una carga inductiva. Si se ubica en el cuarto cuadrante, el factor de potencia es de **adelanto** y corresponde a una carga capacitiva.
+
+## Medicion de Potencia
+Un wattimetro registra la potencia real promedio $P$, o sea la potencia activa consumida con una carga y con un varmetro se puede obtener la potencia reactiva $Q$ consumida por la carga.
