@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "electrotecnia/TP2 - Potencia en Alterna.md",
+            "file": "eda/Listas, colas y pilas.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "electrotecnia/TP2 - Potencia en Alterna.md",
+                "file": "eda/Listas, colas y pilas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +90,7 @@
   },
   "active": "d9a66c8e82bd477d",
   "lastOpenFiles": [
+    "eda/Listas, colas y pilas.md",
     "electrotecnia/TP2 - Potencia en Alterna.md",
     "Electrotecnia/TP2 - Potencia en Alterna.md",
     "fisica-3/Clase 8 - Campos Magneticos.md",
@@ -98,7 +99,6 @@
     "fisica-3/Flujo del vector B.pdf",
     "Ley de Lenz.md",
     "fisica-3/Generalizacion de la Ley de Faraday.md",
-    "fisica-3/Campo de Induccion Magnetica para Toroide.pdf",
-    "fisica-3/Clase 8 - Campos Magneticos.pdf"
+    "fisica-3/Campo de Induccion Magnetica para Toroide.pdf"
   ]
 }
