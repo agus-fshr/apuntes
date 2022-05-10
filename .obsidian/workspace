@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "eda/Listas, colas y pilas.md",
+            "file": "eda/Arboles.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "eda/Listas, colas y pilas.md",
+                "file": "eda/Arboles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,15 +90,15 @@
   },
   "active": "d9a66c8e82bd477d",
   "lastOpenFiles": [
+    "eda/Arboles.md",
+    "eda/src/tree.png",
+    "eda/src/vector-tree.png",
+    "Pasted image 20220507225510.png",
     "eda/Listas, colas y pilas.md",
     "electrotecnia/TP2 - Potencia en Alterna.md",
     "Electrotecnia/TP2 - Potencia en Alterna.md",
     "fisica-3/Clase 8 - Campos Magneticos.md",
     "fisica-3/Fuerza Magnetica entre Conductores Rectilineos Paralelos.md",
-    "fisica-3/Ley de Ampere.pdf",
-    "fisica-3/Flujo del vector B.pdf",
-    "Ley de Lenz.md",
-    "fisica-3/Generalizacion de la Ley de Faraday.md",
-    "fisica-3/Campo de Induccion Magnetica para Toroide.pdf"
+    "fisica-3/Ley de Ampere.pdf"
   ]
 }
