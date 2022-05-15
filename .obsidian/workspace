@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d9a66c8e82bd477d",
+        "id": "41e54d8bf12cf841",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "eda/Arboles.md",
+            "file": "electrotecnia/Frecuencia Compleja y Transformada de Laplace.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "eda/Arboles.md",
+                "file": "electrotecnia/Frecuencia Compleja y Transformada de Laplace.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,17 +88,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d9a66c8e82bd477d",
+  "active": "41e54d8bf12cf841",
   "lastOpenFiles": [
-    "eda/Arboles.md",
-    "eda/src/tree.png",
-    "eda/src/vector-tree.png",
-    "Pasted image 20220507225510.png",
-    "eda/Listas, colas y pilas.md",
+    "electrotecnia/Frecuencia Compleja y Transformada de Laplace.md",
     "electrotecnia/TP2 - Potencia en Alterna.md",
-    "Electrotecnia/TP2 - Potencia en Alterna.md",
-    "fisica-3/Clase 8 - Campos Magneticos.md",
-    "fisica-3/Fuerza Magnetica entre Conductores Rectilineos Paralelos.md",
-    "fisica-3/Ley de Ampere.pdf"
+    "eda/Grafos.md",
+    "eda/Arboles.md",
+    "eda/src/directed-graph.png",
+    "eda/src/BST Tree.png",
+    "electrotecnia/Untitled.md",
+    "fisica-3/Ley de Ampere.pdf",
+    "fisica-3/Ley de Biot-Savart.md",
+    "fisica-3/Ley de Ampere.md"
   ]
 }
