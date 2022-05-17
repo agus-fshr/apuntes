@@ -29,3 +29,25 @@ La frecuencia compleja se mide en unidades que se denominan nepers complejos por
 
 
 ## Funcion Forzada Senoidal Amortiguada
+Un par de frecuencias complejas conjugadas se asocian con una senoide o con una senoide amortiguada por una exponencial. Es util recordar que $Re(z) = \frac{1}{2}(z+z^*)$.
+La parte real de la funcion forzada compleja produce la parte real de la respuesta y lo analogo vale para la parte imaginaria.
+
+La manera en que se trabaja esto con circuitos es planteado las ecuaciones integrodiferenciales para el circuito, luego llamando a cada $V = Re(V_me^{st})$. Despues, hay que sacar factor comun para deshacernos de los factores comunes de $e^st$ y los $Re()$. Una vez hecho eso se despeja la magnitud que se busca resolver y se la escribe de nuevo en el dominio del tiempo.
+
+
+## Transformada de Laplace
+Existe una manera que permite desarrollas cualquier funcion como una suma de formas de onda exponenciales, cada una con su propia frecuencia compleja. Este metodo se conoce como la transformada de Laplace y se define como $$F(s) = \int^{\infty}_{-\infty}e^{-st}dt$$
+Esta transformada convierte las funciones del dominio del tiempo al dominio de la frecuencia. Para demostrar su validez hay que trabajar con la transformada de Fourier. Asimismo, se define la transformada inversa de Laplace como $$f(t) = \frac{1}{2\pi j}\int^{\sigma_0+j\infty}_{\sigma_0-j\infty}e^{st}F(s)ds$$
+La constante real $\sigma_0$ se incluye en los limites de integracion para garantizar la convergencia de la integral impropia. Por suerte, esta ultima integral se puede evitar con el uso de tecnicas que se explicaran mas adelante.
+
+### Condiciones para realizar la transformada de Laplace
+Por lo general, se trabajara con funciones que cumplan las siguientes condiciones
+- La funcion $v(t)$ es integrable en todo intervalo finito $t_1 < t < t_2$ donde $0 \leq t_1 < t_2 < \infty$.
+- $\lim_{t \to \infty} e^{\sigma_0t} |v(t)|$ existe para algun valor de $\sigma_0$.
+
+A continuacion una serie de transformadas comunes.
+$$u(t) \Leftrightarrow \frac{1}{s}$$
+$$\delta (t) \Leftrightarrow 1$$
+$$e^{-\alpha t} \Leftrightarrow \frac{1}{s-\alpha}$$
+$$tu(t) \Leftrightarrow \frac{1}{s^2}$$
+Cuando se tenga un cociente de polinomios a antitransformar, mientras el grado del denominador sea superior al del numerador, conviene hacer fracciones simples y antitransformar cada termino del polinomio resultante.
