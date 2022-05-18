@@ -1,5 +1,5 @@
 # Frecuencia Compleja y Transformada de Laplace
-## 14.1 - Frecuencia Compleja
+## Frecuencia Compleja
 Comenzamos por considerar una tension dada por una senoidal amortiguada exponencialmente (para esto se supone $\sigma < 0$ aunque podria no ser el caso). $$v(t) = V_me^{\sigma t}\cos{(\omega t + \theta)}$$
 A partir de esta ecuacion se pueden dar varias situaciones. Una es la de $\sigma = 0$. Entonces se obtendria una tension senoidal comun $V_m\cos{(\omega t + \theta)}$. Otro caso posible es que $\omega = 0$. En este tendria una tension exponencial dada por $V_m\cos{(\theta)e^{\sigma t}} = v_0e^{\sigma t}$. Finalmente, podria darse el caso de que tanto $\sigma$ como $\omega$ se anulen. En ese caso tendria nada mas que una tension consatnte $V_m\cos{(\theta)} = V_0$.
 
@@ -50,4 +50,29 @@ $$u(t) \Leftrightarrow \frac{1}{s}$$
 $$\delta (t) \Leftrightarrow 1$$
 $$e^{-\alpha t} \Leftrightarrow \frac{1}{s-\alpha}$$
 $$tu(t) \Leftrightarrow \frac{1}{s^2}$$
+$$\sin(\omega t u(t)) \Leftrightarrow \frac{\omega}{s^2+\omega^2}$$
+$$\cos(\omega t u(t)) \Leftrightarrow \frac{s}{s^2 + \omega^2}$$
 Cuando se tenga un cociente de polinomios a antitransformar, mientras el grado del denominador sea superior al del numerador, conviene hacer fracciones simples y antitransformar cada termino del polinomio resultante.
+
+
+### Datos piolas de Laplace
+Cuando todas las condiciones iniciales son cero, diferenciar con respecto al tiempo se vuelve simplemente multiplicar por $s$ en el dominio de la frecuencia.
+
+De manera analoga, la integracion en el dominio del tiempo se corresponde con la division por $s$ en el dominio de la frecuencia.
+
+El desplazamiento en el tiempo se aplica de la siguiente manera $$f(t-a)u(t-a) \Leftrightarrow e^{-as}F(s) \hspace{3cm} (a \geq 0)$$
+## La prueba de Routh
+Sea la funcion de un sistema en el dominio $s$ $$H(s) = \frac{N(s)}{D(s)}$$
+El polinomi del denominador puede escribirse somo $a_ns^n + a_{n-1}s^{n-1} + ...$ Si los coeficientes $a_n$ son positivos y diferentes de cero, el procedimiento de Routh ordena los coeficientes como $$a_n \hspace{1cm} a_{n-2} \hspace{1cm} a_{n-4} \hspace{1cm} ...$$ $$a_{n-1} \hspace{1cm} a_{n-3} \hspace{1cm} a_{n-5} \hspace{1cm} ...$$
+Luego, se genera una tercera fila $$\frac{a_{n-1}a_{n-2} - a_na_{n-3}}{a_{n-1}} \hspace{1cm} \frac{a_{n-1}a_{n-4} - a_na_{n-5}}{a_{n-1}}$$
+Despues de esto, se genera una cuarta fila, multiplicando de la misma manera la segunda y tercera filas. Esto se repite hasta tener $n+1$ filas. El numero de cambios de signo que hay en la primera columna indica la cantidad de polos que tiene la componente real positiva. Cualquier cambio de signos indica que el sistema es inestable.
+
+## Teorema del Valor Inicial
+El valor inicial de la funcion de tiempo $f(t)$ se obtiene multiplicando primero su transformada de Laplace $F(s)$ por $s$ y luego dejando que $s$ tienda a infinito. El valor inicial de $f(t)$ que se obtiene es el limite por la derecha.
+
+Esto sirve pare verificar los resultados de una transformacion o de una transformacion inversa.
+
+
+## Teorema del Valor Final
+No es tan util como el de valor inicial porque solamente se puede usar con algunas transformadas. Este teorema solamente vale para las $F(s)$ con polos con parte real negativa o en el origen. $$\lim_{t \to \infty}f(t) = \lim_{s \to 0}[sF(s)]$$
+La condicion mencionada previamente para este teorema es tal que garantiza la existencia de $f(\infty)$. El producto $sF(s)$ tiene todos sus polos dentro del semiplano izquierdo.
