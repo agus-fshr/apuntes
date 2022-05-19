@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "electrotecnia/Analisis de Circuitos en el Dominio s.md",
+            "file": "electrotecnia/Circuitos Resonantes.md",
             "mode": "source",
             "source": false
           }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "electrotecnia/Analisis de Circuitos en el Dominio s.md",
+                "file": "electrotecnia/Circuitos Resonantes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,15 +90,15 @@
   },
   "active": "41e54d8bf12cf841",
   "lastOpenFiles": [
+    "electrotecnia/Circuitos Resonantes.md",
+    "electrotecnia/src/modelos-del-inductor.png",
+    "electrotecnia/src/curvas-de-q-con-lc.png",
+    "electrotecnia/src/curvas-de-q-con-r.png",
+    "electrotecnia/src/intro-ancho-de-banda.png",
+    "electrotecnia/src/i-en-funcion-de-f-rlc-serie.png",
+    "electrotecnia/src/modulo-de-z-en-funcion-de-f-rlc-serie.png",
+    "electrotecnia/src/reactancia-en-funcion-de-f-rlc-serie.png",
     "electrotecnia/Analisis de Circuitos en el Dominio s.md",
-    "electrotecnia/src/modelos-equivalentes-frecuencia.png",
-    "electrotecnia/src/capacitor-en-frecuencia.png",
-    "electrotecnia/src/inductor-en-frecuencia.png",
-    "electrotecnia/Frecuencia Compleja y Transformada de Laplace.md",
-    "electrotecnia/TP2 - Potencia en Alterna.md",
-    "eda/Grafos.md",
-    "eda/Arboles.md",
-    "eda/src/directed-graph.png",
-    "eda/src/BST Tree.png"
+    "electrotecnia/src/rlc-impedancia-que-ve-el-generador.png"
   ]
 }
