@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "electrotecnia/resumen-para-tp3.md",
+            "file": "matematica-5/senales-generalidades.md",
             "mode": "source",
             "source": false
           }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302,
-    "collapsed": true
+    "width": 302
   },
   "right": {
     "id": "030224a1d9b33ba4",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "electrotecnia/resumen-para-tp3.md",
+                "file": "matematica-5/senales-generalidades.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,15 +89,15 @@
   },
   "active": "41e54d8bf12cf841",
   "lastOpenFiles": [
+    "matematica-5/src/fasor-rotatorio.png",
+    "matematica-5/senales-generalidades.md",
+    "matematica-5/senales-generalidades.pdf",
+    "eda/Ordenamiento.md",
+    "eda/Hashing.md",
     "electrotecnia/resumen-para-tp3.md",
     "electrotecnia/Circuitos Resonantes.md",
     "electrotecnia/Diagrama de Bode.md",
     "electrotecnia/src/modelos-del-inductor.png",
-    "electrotecnia/src/curvas-de-q-con-lc.png",
-    "electrotecnia/src/curvas-de-q-con-r.png",
-    "electrotecnia/src/intro-ancho-de-banda.png",
-    "electrotecnia/src/i-en-funcion-de-f-rlc-serie.png",
-    "electrotecnia/src/modulo-de-z-en-funcion-de-f-rlc-serie.png",
-    "electrotecnia/src/reactancia-en-funcion-de-f-rlc-serie.png"
+    "electrotecnia/src/curvas-de-q-con-lc.png"
   ]
 }
