@@ -34,3 +34,10 @@ A continuacion, una tabla que detalla la hibridacion para las distintas cantidad
 Para este caso en particular no hay mucho que decir. Es el clasico. Un ejemplo de este tipo de geometria es el de $\text{BeCl}_2$
 En cuanto a la formula de Lewis de  estos compuestos, es bastante directa asi que no voy a entrar en detalle. Lo importante es que el angulo formado por las direcciones de las fuerzas de repulsion en este tipo de geometria es de $180 ^{\circ}$. Moleculas con esta geometria son no polares.
 Al tener dos centros de alta densidad electronica, voy a usar el orbital s y un orbital p. Entonces la hibridacion para estos compuestos es de tipo $sp$.
+
+## Trigonal Planar: especies $\text{AB}_3$
+
+... a partir de aca dejo de resumir oprque es todo lo mismo y es mas rapido mirar una table o buscarlo en el Whitten.
+
+![](src/molecular-geometry.png)
+![](src/molecular-geometry-double-bonds.png)
