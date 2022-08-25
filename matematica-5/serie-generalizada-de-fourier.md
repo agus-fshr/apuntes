@@ -53,3 +53,61 @@ Supongamos alguna funcion $x: \mathbb{Z} \to K$ periodica de periodo $N$. Con $x
 Puedo caracterizar a $x$ como la n-upla de su codominio, el cual pertenecera a $\mathbb{C}^N$.
 
 $(\mathbb{C}^N, <,>)$ es un espacio de Hilbert, definiendo el producto interno $$ <a,b> = \sum_{k=0}^{N-1}a_kb_k^*$$
+
+
+Consideremos funciones en tiempo continuo de periodo $T$, $P_c^T$. Entonces
+
+$$ <x(t), y(t)> = \int_{t_0}^{t_0+T} x(t)y^*(t) dt $$
+
+Sean $t_0 \in \mathbb{R}$ y $T>0$, definiremos
+
+$$ \mathcal{L}_{(t_0,T)} = \{x:[t_0, t_0+T) : \int_{t_0}^{t_0+T} |x(t)|^2 dt < \infty \} $$
+
+
+La serie de Fourier asociada a $x(t)$ sera
+
+$$ x ~ \sum_{k \in \mathbb{Z}} X_ke^{jk\omega_0 t} $$
+$$ X_k = \frac{1}{T} \int_{t_0}^{t_0+T} x(t)e^{-j\omega_0 t} $$
+
+El espacio $\mathcal{L}^2_{t_0,T}$ es de Hilbert, completo y, por lo tanto, vale la igualdad de Parseval.
+
+### Igualdad de Parseval
+
+$$ \sum_{k \in \mathbb{Z}} |X_k|^2T = \int_{t_0}^{t_0+T} |x(t)|^2 dt $$
+
+# Coeficientes de la Serie Trigonometrica de Fourier
+
+$$ a_0 = \frac{<x,1>}{<1,1>} = \frac{1}{T} \int_{t_0}^{t_0+T} x(t) dt = X_0 $$
+
+$$ a_n = \frac{<x,\cos(n\omega_0 t)>}{<\cos{(n\omega_0 t)}, \sin{(n\omega_0 t)}>} = \frac{2}{T}\int_{t_0}^{t_0+T}x(t)\cos{(n\omega_0 t)} dt $$
+
+$$ a_n = \frac{<x,\sin(n\omega_0 t)>}{<\sin{(n\omega_0 t)}, \sin{(n\omega_0 t)}>} = \frac{2}{T}\int_{t_0}^{t_0+T}x(t)\sin{(n\omega_0 t)} dt $$
+
+Si $x(t) \in \mathbb{T}$ entonces puedo decir que $X_{-n}=X_n^*$
+
+# Serie Trigonometrica de Fourier
+
+$$ a_0 + \sum_{n \in \mathbb{N}} a_n \cos{(n \omega_0 t)} + b_n\sin{(n \omega_0 t)} $$
+
+## Igualdad de Parseval
+
+$$ |a_0|^2 + \sum_{n \in \mathbb{N}} \frac{|a_n|^2}{2} + \frac{|b_n|^2}{2} = \frac{1}{T}\int_{t_0}^{t_0+T} |x(t)|^2 dt $$
+
+# Diagramas Espectrales
+
+Sea $x:[t_0; t_0+T) \to \mathcal{K}$ y $x \in \mathcal{L}^2_{(t_0,T)}$ Su serie asociada de Fourier es
+
+$$ \sum_{n \in \mathbb{Z}}X_n e^{j2\pi nft}$$
+
+![Diagrama Espectral](src/diagrama-espectral.png){width=250px}
+
+## Observacion Sobre Coeficientes y Propiedades
+
+$$ X_n = \frac{1}{T} \int_{t_0}^{t_0+T}x(t)e^{-jn\omega_0t} dt $$
+
+$$ X_n^* = \frac{1}{T} \int_{t_0}^{t_0+T}x^*(t)e^{jn\omega_0t} dt $$
+
+$$ X_{-n} = \frac{1}{T} \int_{t_0}^{t_0+T}x(t)e^{jn\omega_0t} dt $$
+
+
+$$ X_n = |X_n|e^{j\theta n} $$
